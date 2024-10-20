@@ -1,0 +1,5 @@
+How to Run the Application
+1. Install Dependencies: Run the following command to install dependencies listed in requirements.txt: pip install -r requirements.txt
+2. Run the Flask App: Once everything is set up, run your Flask application: python app.python
+3. Submit a Rule by entering a rule such as: (age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')
+4. Submit the form, and the rule will be sent to the Flask backend, creating its AST.
